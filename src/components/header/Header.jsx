@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className=' header__container'>
       {/* <div className="head"> */}
-    <video src={background} autoPlay muted loop/>
+    <video src={background} preload="auto" autoPlay muted loop/>
     <div className="contents">
         <h5>Hello I'm</h5>
         <h1>Ajay Ranabhat</h1>
