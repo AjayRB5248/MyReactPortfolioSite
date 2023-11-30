@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header>
       <div className="header__container">
-        <video ref={videoRef} preload="auto" muted loop />
+        <video ref={videoRef} preload="auto" muted loop loading="lazy" />
         <div className="contents">
           <h5>Hello I'm</h5>
           <h1>Ajay Ranabhat</h1>
