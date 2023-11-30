@@ -76,6 +76,7 @@ const Certificate = () => {
                   href={credential}
                   target="_blank"
                   className="btn btn-primary"
+                  rel="noreferrer"
                 >
                   View Credential
                 </a>
