@@ -4,7 +4,8 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
-import IMG5 from "../../assets/other.jpg";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/other.jpg";
 
 const data = [
   {
@@ -38,6 +39,13 @@ const data = [
   {
     id: 5,
     image: IMG5,
+    title: "Ecommerce Website",
+    github: "https://github.com/AjayRB5248/Ecommerce_MERN",
+    demo: "https://shopmandu-ecommerce.netlify.app",
+  },
+  {
+    id: 6,
+    image: IMG6,
     title: "Other Projects...",
     github: "https://github.com/arb12345",
   },
